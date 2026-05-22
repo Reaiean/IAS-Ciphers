@@ -1,0 +1,12 @@
+/* ── PLAYFAIR CIPHER STYLES ── */
+@import url('cipher.css');
+
+:root {
+  --accent: #00e5ff;
+  --accent-glow: rgba(0,229,255,0.12);
+  --accent-soft: rgba(0,229,255,0.08);
+}
+.cipher-title { color: var(--accent); }
+.formula { border-left-color: var(--accent); }
+.btn-primary { background: var(--accent); color: #000; }
+.btn-primary:hover { background: #33eaff; }

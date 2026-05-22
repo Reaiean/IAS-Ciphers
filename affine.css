@@ -1,0 +1,12 @@
+/* ── AFFINE CIPHER STYLES ── */
+@import url('cipher.css');
+
+:root {
+  --accent: #a78bfa;
+  --accent-glow: rgba(167,139,250,0.12);
+  --accent-soft: rgba(167,139,250,0.08);
+}
+.cipher-title { color: var(--accent); }
+.formula { border-left-color: var(--accent); }
+.btn-primary { background: var(--accent); color: #000; }
+.btn-primary:hover { background: #b9a3fb; }

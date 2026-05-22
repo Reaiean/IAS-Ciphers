@@ -1,0 +1,12 @@
+/* ── HILL CIPHER STYLES ── */
+@import url('cipher.css');
+
+:root {
+  --accent: #ff6b35;
+  --accent-glow: rgba(255,107,53,0.12);
+  --accent-soft: rgba(255,107,53,0.08);
+}
+.cipher-title { color: var(--accent); }
+.formula { border-left-color: var(--accent); }
+.btn-primary { background: var(--accent); color: #000; }
+.btn-primary:hover { background: #ff845a; }
